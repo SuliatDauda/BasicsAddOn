@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(149, 233, 222);
+  font-family: "Inria Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(4, 58, 51);
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  color: rgb(4, 58, 51);
+  opacity: 0.6;
+}
+button {
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+button:hover {
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.container {
+  background-color: rgb(230, 255, 252);
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.theme-button {
+  width: 110px;
+  display: block;
+  margin: 20px auto;
+  color: rgb(230, 255, 252);
+  background: rgb(50, 129, 119);
+  border: none;
+}
+
+.theme-button:hover {
+  color: rgb(50, 129, 119);
+  background: rgb(230, 255, 252);
+}
+
+.learn-button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgb(50, 129, 119);
+  background: transparent;
+  color: rgb(13, 78, 70);
+}
+
+.learn-button:hover {
+  color: rgb(230, 255, 252);
+  background-color: rgb(50, 129, 119);
+}
+
+.intro-picture {
+  transition: all 150ms ease-in-out;
+  border-radius: 12px;
+}
+
+.intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
