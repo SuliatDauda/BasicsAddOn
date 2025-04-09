@@ -13,6 +13,11 @@ h2 {
 
 img {
   max-width: 100%;
+  border-radius: 8px;
+}
+
+img:hover {
+  transform: scale(1.5);
 }
 
 a {
@@ -45,8 +50,8 @@ button:hover {
 .container {
   background-color: rgb(230, 255, 252);
   max-width: 600px;
-  margin: 10px auto;
-  padding: 40px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 15px;
 }
 
@@ -91,5 +96,8 @@ button:hover {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 15px;
+  margin-top: 28px;
+  width: 100%;
+  transition: all 150ms ease-in-out;
 }
