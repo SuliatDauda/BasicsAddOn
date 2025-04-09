@@ -13,16 +13,11 @@ h2 {
 
 img {
   max-width: 100%;
-  border-radius: 8px;
-}
-
-img:hover {
-  transform: scale(1.5);
 }
 
 a {
   text-decoration: none;
-  color: rgb(4, 58, 51);
+  color: rgb(2, 39, 34);
 }
 
 p {
@@ -100,4 +95,47 @@ button:hover {
   margin-top: 28px;
   width: 100%;
   transition: all 150ms ease-in-out;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+  transform: scale(1.5);
+}
+
+.dark {
+  background: linear-gradient(
+    109.6deg,
+    rgb(5, 84, 94) 16%,
+    rgb(187, 187, 187) 91.1%
+  );
+}
+
+.dark .container {
+  background-color: rgb(37, 120, 131);
+  color: rgb(230, 255, 252);
+}
+
+.dark a {
+  color: rgb(230, 255, 252);
+}
+
+.dark footer {
+  color: rgb(230, 255, 252);
+}
+
+.dark .learn-button {
+  border: 1px solid rgb(158, 243, 232);
+  background: transparent;
+  color: rgb(147, 252, 238);
+}
+
+.dark .theme-button {
+  border: 1px solid rgb(158, 243, 232);
+  background: transparent;
+  color: rgb(147, 252, 238);
 }
